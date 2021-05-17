@@ -5,6 +5,8 @@ import io.github.millij.poi.ss.model.annotations.SheetColumn;
 /**
  * 
  * @author Virendra
+ * 
+ * Holds shopify data.
  *
  */
 public class ShopifyApp {

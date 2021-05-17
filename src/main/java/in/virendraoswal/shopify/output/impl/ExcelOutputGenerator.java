@@ -8,6 +8,11 @@ import in.virendraoswal.shopify.output.IOutputGenerator;
 import in.virendraoswal.shopify.scrapper.model.ShopifyApp;
 import io.github.millij.poi.ss.writer.SpreadsheetWriter;
 
+/**
+ * Outputs all apps fetch to excel.
+ * @author Virendra
+ *
+ */
 @SuppressWarnings("deprecation")
 public class ExcelOutputGenerator implements IOutputGenerator {
 

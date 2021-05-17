@@ -5,6 +5,11 @@ import java.util.List;
 import in.virendraoswal.shopify.output.IOutputGenerator;
 import in.virendraoswal.shopify.scrapper.model.ShopifyApp;
 
+/**
+ * Console outputs all apps fetched.
+ * @author Virendra
+ *
+ */
 public class ConsoleOutputGenerator implements IOutputGenerator {
 
 	@Override

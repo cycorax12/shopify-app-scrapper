@@ -41,3 +41,4 @@ You can pull proxy from online, many sites provide free proxy for use.
 
 ## NOTE
 * This is just for some data analysis purpose, and not used in any commercial way or in production.
+* Sample excel file generated can be found [here.](https://github.com/cycorax12/shopify-app-scrapper/blob/main/samples/shopify_app.xlsx)

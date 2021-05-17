@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>in.virendraoswal</groupId>
+	<artifactId>shopify-app-scraper</artifactId>
+	<version>1.0.0</version>
+
+	<properties>
+		<jsoup.version>1.10.2</jsoup.version>
+		<poi.object.mapper.version>1.0.0</poi.object.mapper.version>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${jsoup.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.millij</groupId>
+			<artifactId>poi-object-mapper</artifactId>
+			<version>${poi.object.mapper.version}</version>
+		</dependency>
+	</dependencies>
+</project>
